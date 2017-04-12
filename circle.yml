@@ -1,6 +1,6 @@
 test:
   override:
-    - bash echo "No tests"
+    - echo "No tests"
 
 deployment:
   beta:
