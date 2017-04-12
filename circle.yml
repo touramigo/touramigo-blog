@@ -1,0 +1,11 @@
+test:
+  override:
+    - bash echo "No tests"
+
+deployment:
+  beta:
+    branch: master
+    commands:
+      - sudo apt-get install -y sshpass
+      - sshpass -p $SSH_PASSWD ssh root@blog.touramigo.com "cd /var/www/html && git pull"
+
