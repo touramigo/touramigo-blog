@@ -241,7 +241,7 @@ foreach ($sh as $s) { ?>
                 <div class="tour-bottom">
                     <a target="_blank" href="<?php  echo $s['tourPageUrl']; ?>" class="tour__view-btn">view full itinerary</a>
                     <a  target="_blank" href="<?php  echo $s['tourBookingUrl']; ?>" class="tour__book-btn">book now</a>
-                    <a  target="_blank" href="<?php  echo $s['tourPageUrl']; ?>" class="purple-btn tour__compare-btn">compare tour</a>
+                    <a  target="_blank" href="<?php  echo $s['tourCompareUrl']; ?>" class="purple-btn tour__compare-btn">compare tour</a>
                 </div><!--tour-bottom-->
 
             </div><!--tour-right-->
