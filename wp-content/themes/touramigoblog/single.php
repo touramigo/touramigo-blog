@@ -123,7 +123,7 @@ $thumb_url2 = wp_get_attachment_image_src($thumb_id2,'popular', true);
         <div class="comments">
             <div class="content">
 
-<?php disqus_embed(get_field('disqus_code', option)); ?>
+<?php /* disqus_embed(get_field('disqus_code', option)); */ ?>
 
 
 
