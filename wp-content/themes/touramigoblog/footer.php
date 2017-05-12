@@ -84,6 +84,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/jquery.bxslider.min.js"></script>
 <script src="<?php bloginfo('template_url'); ?>/js/script.js"></script>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"ec465085aa92acf1fa8221481","lid":"d890b24a6d"}) })</script>
 <?php wp_footer(); ?>
 
 <!-- GA Analytics -->
